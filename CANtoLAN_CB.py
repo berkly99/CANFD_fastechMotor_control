@@ -8,7 +8,6 @@
 #**		FM_EZIMOTIONLINK2_PARAM		// Parameter enum when using Ezi-MOTIONLINK2													**
 #*************************************************************************************************************************************
 
-import sys
 import os
 import time
 import can
@@ -20,24 +19,6 @@ from pymodbus.client import ModbusSerialClient    # pymodbus MODBUS protocol
 
 
 os.system('sudo ip link set can0 up type can bitrate 500000 dbitrate 2000000 sample-point 0.8 dsample-point 0.8 restart-ms 100 berr-reporting on fd on')
-
-try:
-    bus = can.interface.Bus(channel='can0', interface='socketcan', fd=True)
-except OSError as e:
-    print(f"Failed to initialize CAN interface: {e}")
-    exit()
-
-
-try:
-    library_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "Library")
-    )
-except NameError:
-    library_path = os.path.abspath(
-        os.path.join(os.getcwd(), "Library")
-    )
-sys.path.append(library_path)
-
 
 from FAS_EziMOTIONPlusE import *
 from MOTION_DEFINE import *

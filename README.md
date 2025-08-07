@@ -27,3 +27,5 @@ https://fastech-motions.com/software/250107_Program_Plus-E%20Linux%20Library_Ver
 
 ## samba 설치 
 ## sudo nmtui 를 이용해서 eth0 포트 192.168.0.83 고정 ip로 변경
+
+## samba 설정 경로 PE 폴더 경로로 설정
