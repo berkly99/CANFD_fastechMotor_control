@@ -1,0 +1,329 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+VAL_TABLE_ Relay_OFF_2 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ Relay_ON_2 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ Relay_OFF_1 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ Relay_ON_1 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ LaserOFF 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ LaserON 1 "HIGH" 0 "LOW" ;
+VAL_TABLE_ MOTIONCONST 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ MOTIONDECEL 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ MOTIONACCEL 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ MOTIONPAUSE 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ MOTIONING 0 "Description for the value '0x0'" ;
+VAL_TABLE_ MOTIONDIR 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ORIGINRETOK 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ZPULSE 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ORIGINSENSOR 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ PTSTOPPED 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ALARMRESET 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ SERVOON 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ INPOSITION 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ORIGINRETURNING 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ SLOWSTOP 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ EMGSTOP 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRINPOSITION 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRMOTORPOWER 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRBACKEMF 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERROVERHEAT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERROVERLOAD 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRPOSTRACKING 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERROVERSPEED 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERROVERCURRENT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRPOSOVERFLOW 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ RESERVED1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ RESERVED0 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ SWNEGALMT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ SWPOGILMT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ HWNEGALMT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ HWPOSILMT 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ ERRORALL 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_TABLE_ Pos_Dec_Move 1 "Pos_Dec_Move" 0 "No_Action" ;
+VAL_TABLE_ Pos_Inc_Move 1 "Pos_Inc_Move" 0 "No_Action" ;
+VAL_TABLE_ Abs_Pos_Move 1 "Abs_Pos_Move" 0 "No_Action" ;
+VAL_TABLE_ JOG_Minus_Stop 1 "JOG_Minus_Stop" 0 "No_Action" ;
+VAL_TABLE_ JOG_Minus_Start 1 "JOG_Minus_Start" 0 "No_Action" ;
+VAL_TABLE_ JOG_Plus_Stop 1 "JOG_Plus_Stop" 0 "No_Action" ;
+VAL_TABLE_ JOG_Plus_Start 1 "JOG_Plus_Start" 0 "No_Action" ;
+VAL_TABLE_ ORG_Search 1 "ORG_Search" 0 "No_Action" ;
+VAL_TABLE_ Em_Stop 1 "Em_Stop" 0 "No_Action" ;
+VAL_TABLE_ Stop 1 "Stop" 0 "No_Action" ;
+VAL_TABLE_ Alarm_reset 1 "Alarm_Reset" 0 "No_Action" ;
+VAL_TABLE_ ServoOFF 1 "ServoOFF" 0 "No_Action" ;
+VAL_TABLE_ ServoON 0 "No_Action" 1 "ServoON" ;
+VAL_TABLE_ AxisStatus 1073741824 "FFLAG_MOTIONDECEL" 536870912 "FFLAG_MOTIONACCEL" 268435456 "FFLAG_MOTIONPAUSE" 134217728 "FFLAG_MOTIONING" 67108864 "FFLAG_MOTIONDIR" 33554432 "FFLAG_ORIGINRETOK" 16777216 "FFLAG_ZPULSE" 8388608 "FFLAG_ORIGINSENSOR" 4194304 "FFLAG_PTSTOPPED" 2097152 "FFLAG_ALARMRESET" 1048576 "FFLAG_SERVOON" 524288 "FFLAG_INPOSITION" 262144 "FFLAG_ORIGINRETURNING" 131072 "FFLAG_SLOWSTOP" 65536 "FFLAG_EMGSTOP" 32768 "FFLAG_ERRINPOSITION" 16384 "FFLAG_ERRMOTORPOWER
+" 8192 "FFLAG_ERRBACKEMF" 4096 "FFLAG_ERROVERHEAT" 2048 "FFLAG_ERROVERLOAD" 1024 "FFLAG_ERRPOSTRACKING" 512 "FFLAG_ERROVERSPEED" 256 "FFLAG_ERROVERCURRENT" 128 "FFLAG_RESERVED1" 64 "FFLAG_RESERVED1" 32 "FFLAG_RESERVED0" 16 "FFLAG_SWNEGALMT" 8 "FFLAG_SWPOGILMT" 4 "FFLAG_HWNEGALMT" 2 "FFLAG_HWPOSILMT" -2147483648 "FFLAG_MOTIONCONST" 1 "FFLAG_HWPOSILMT" ;
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ AxisStatus : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ AxisStatus : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ LaserOFF : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LaserON : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Plus_Stop_2 : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Minus_Stop_2 : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Minus_Stop_1 : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Plus_Stop_1 : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+
+BO_ 1536 Motor_Action: 16 Vector__XXX
+ SG_ Relay_8 : 39|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_7 : 38|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_6 : 37|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_5 : 36|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_2 : 33|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_4 : 35|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_3 : 34|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Relay_1 : 32|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Pos_Inc_Move_2 : 25|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Pos_Dec_Move_2 : 26|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Stop_2 : 18|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ ORG_Search_2 : 20|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Plus_2 : 21|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Minus_2 : 22|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Cmd_Pos_2 : 72|32@1- (1,0) [-2147483648|2147483647] "" Vector__XXX
+ SG_ Alarm_reset_2 : 17|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Abs_Pos_Move_2 : 24|1@1+ (1,0) [0|0] "bit" Vector__XXX
+ SG_ Em_Stop_2 : 19|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Servo_2 : 16|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Cmd_Pos_1 : 40|32@1- (1,0) [-2147483648|2147483647] "" Vector__XXX
+ SG_ Servo_1 : 0|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Pos_Dec_Move_1 : 10|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Pos_Inc_Move_1 : 9|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Abs_Pos_Move_1 : 8|1@1+ (1,0) [0|0] "bit" Vector__XXX
+ SG_ JOG_Minus_1 : 6|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ JOG_Plus_1 : 5|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ ORG_Search_1 : 4|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Em_Stop_1 : 3|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Stop_1 : 2|1@1+ (1,0) [0|1] "bit" Vector__XXX
+ SG_ Alarm_reset_1 : 1|1@1+ (1,0) [0|1] "bit" Vector__XXX
+
+BO_ 1537 Motor_information: 16 Vector__XXX
+ SG_ SERVOON_02 : 76|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SERVOON_01 : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RESERVED1_2 : 94|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWPOGILMT_2 : 91|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWNEGALMT_2 : 92|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SLOWSTOP_2 : 73|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RESERVED0_2 : 93|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PTSTOPPED_2 : 78|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINSENSOR_2 : 79|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINRETURNING_2 : 74|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINRETOK_2 : 65|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONPAUSE_2 : 68|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONING_2 : 67|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONDIR_2 : 66|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONDECEL_2 : 70|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONCONST_2 : 71|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONACCEL_2 : 69|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INPOSITION_2 : 75|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HWPOSILMT_2 : 89|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HWNEGALMT_2 : 90|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRPOSTRACKING_2 : 82|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRPOSOVERFLOW_2 : 95|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERSPEED_2 : 81|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERLOAD_2 : 83|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERHEAT_2 : 84|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERCURRENT_2 : 80|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRORALL_2 : 88|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRMOTORPOWER_1 : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRINPOSITION_2 : 87|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRBACKEMF_2 : 85|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EMGSTOP_2 : 72|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ALARMRESET_2 : 77|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZPULSE_2 : 64|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MotorPositon_2 : 96|32@1- (1,0) [-2147483648|2147483647] "pulse" Vector__XXX
+ SG_ MOTIONPAUSE_1 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONING_1 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONDIR_1 : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONDECEL_1 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONCONST_1 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MOTIONACCEL_1 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ZPULSE_1 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PTSTOPPED_1 : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ INPOSITION_1 : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINSENSOR_1 : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINRETURNING_1 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ORIGINRETOK_1 : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SLOWSTOP_1 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EMGSTOP_1 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRPOSTRACKING_1 : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRPOSOVERFLOW_1 : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERSPEED_1 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERLOAD_1 : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERHEAT_1 : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERROVERCURRENT_1 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRMOTORPOWER_2 : 86|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRINPOSITION_1 : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRBACKEMF_1 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ALARMRESET_1 : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWPOGILMT_1 : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RESERVED1_1 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ RESERVED0_1 : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWNEGALMT_1 : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HWPOSILMT_1 : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HWNEGALMT_1 : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ERRORALL_1 : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MotorPositon_1 : 32|32@1- (1,0) [-2147483648|2147483647] "pulse" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "CANFD_BRS" "1";
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_ "BusType" "CAN FD";
+BA_ "DBName" "_Axis_CANFD_250107";
+BA_ "VFrameFormat" BO_ 1536 14;
+BA_ "VFrameFormat" BO_ 1537 14;
+VAL_ 3221225472 LaserOFF 1 "HIGH" 0 "LOW" ;
+VAL_ 3221225472 LaserON 1 "HIGH" 0 "LOW" ;
+VAL_ 3221225472 JOG_Plus_Stop_2 1 "HIGH" 0 "LOW" ;
+VAL_ 3221225472 JOG_Minus_Stop_2 1 "HIGH" 0 "LOW" ;
+VAL_ 3221225472 JOG_Minus_Stop_1 1 "HIGH" 0 "LOW" ;
+VAL_ 3221225472 JOG_Plus_Stop_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_8 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_7 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_6 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_5 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_4 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_3 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Relay_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Pos_Inc_Move_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Pos_Dec_Move_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Stop_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 ORG_Search_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 JOG_Plus_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 JOG_Minus_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Alarm_reset_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Abs_Pos_Move_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Em_Stop_2 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Servo_2 0 "LOW" 1 "HIGH" ;
+VAL_ 1536 Servo_1 0 "LOW" 1 "HIGH" ;
+VAL_ 1536 Pos_Dec_Move_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Pos_Inc_Move_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Abs_Pos_Move_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 JOG_Minus_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 JOG_Plus_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 ORG_Search_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Em_Stop_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Stop_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1536 Alarm_reset_1 1 "HIGH" 0 "LOW" ;
+VAL_ 1537 SERVOON_02 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SERVOON_01 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 RESERVED1_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SWPOGILMT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SWNEGALMT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SLOWSTOP_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 RESERVED0_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 PTSTOPPED_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINSENSOR_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINRETURNING_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINRETOK_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONPAUSE_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONING_2 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONDIR_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONDECEL_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONCONST_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONACCEL_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 INPOSITION_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 HWPOSILMT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 HWNEGALMT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRPOSTRACKING_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRPOSOVERFLOW_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERSPEED_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERLOAD_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERHEAT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERCURRENT_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRORALL_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRMOTORPOWER_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRINPOSITION_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRBACKEMF_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 EMGSTOP_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ALARMRESET_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ZPULSE_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONPAUSE_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONING_1 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONDIR_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONDECEL_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONCONST_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 MOTIONACCEL_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ZPULSE_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 PTSTOPPED_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 INPOSITION_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINSENSOR_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINRETURNING_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ORIGINRETOK_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SLOWSTOP_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 EMGSTOP_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRPOSTRACKING_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRPOSOVERFLOW_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERSPEED_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERLOAD_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERHEAT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERROVERCURRENT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRMOTORPOWER_2 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRINPOSITION_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRBACKEMF_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ALARMRESET_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SWPOGILMT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 RESERVED1_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 RESERVED0_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 SWNEGALMT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 HWPOSILMT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 HWNEGALMT_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+VAL_ 1537 ERRORALL_1 1 "Description for the value '0x1'" 0 "Description for the value '0x0'" ;
+
